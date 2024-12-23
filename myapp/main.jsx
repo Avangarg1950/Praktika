@@ -5,7 +5,7 @@ import EquipmentAndContactSectionWidget from "./components/EquipmentAndContactSe
 const rootElement = document.getElementById("root");
 
 if (!rootElement) {
-  throw new Error("Root element not found");
+  throw new Error("Root element not found. Please ensure that the HTML contains a div with id 'root'.");
 }
 
 const root = createRoot(rootElement);
